@@ -1,0 +1,21 @@
+<html>
+
+<head>
+    <script>
+        function resize(height) {
+           let e = document.getElementById('page');
+           e.style.height = height;
+        }
+        setTimeout(() => { resize('200px')}, 50);
+        setTimeout(() => { resize('300px')}, 100);
+        setTimeout(() => { resize('1300px')}, 150);
+    </script>
+</head>
+
+<body>
+    <div id="page" style="width: 100%; background-color: #999">
+        This is the page
+    </div>
+</body>
+
+</html>
